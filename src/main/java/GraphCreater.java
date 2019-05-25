@@ -70,7 +70,7 @@ public class GraphCreater extends JFrame {
         GetData.pc.newProject();
         workspace = GetData.pc.getCurrentWorkspace();
         db = new DBConnection();
-        db.makeConnection();
+        db.makeConnection("postgres");
         //модель графа
         final GraphModel graphModel = Lookup.getDefault()
                 .lookup(GraphController.class).getGraphModel();
