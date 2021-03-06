@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2021-02-10">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <nodes>
+      <node id="0">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-1619.2859" y="655.5041"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="1">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-378.6749" y="417.7938"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="2">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="465.22916" y="677.1141"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="3">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-1294.7075" y="-266.52362"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="4">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="400.31345" y="-223.30359"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="5">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-566.2091" y="-554.6573"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="6">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="292.12064" y="-756.3508"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="0" target="1" weight="7.0"></edge>
+      <edge id="1" source="1" target="2" weight="8.0"></edge>
+      <edge id="2" source="0" target="3" weight="5.0"></edge>
+      <edge id="3" source="3" target="4" weight="15.0"></edge>
+      <edge id="4" source="4" target="5" weight="8.0"></edge>
+      <edge id="5" source="5" target="6" weight="11.0"></edge>
+      <edge id="6" source="4" target="6" weight="9.0"></edge>
+      <edge id="7" source="4" target="2" weight="5.0"></edge>
+      <edge id="8" source="1" target="3" weight="9.0"></edge>
+      <edge id="9" source="3" target="5" weight="6.0"></edge>
+      <edge id="10" source="1" target="4" weight="9.0"></edge>
+    </edges>
+  </graph>
+</gexf>
